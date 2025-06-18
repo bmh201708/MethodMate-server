@@ -1,0 +1,26 @@
+{
+  "name": "methodmate-backend",
+  "version": "1.0.0",
+  "description": "MethodMate Backend API Server",
+  "main": "local-api.js",
+  "scripts": {
+    "start": "node local-api.js",
+    "dev": "nodemon local-api.js"
+  },
+  "dependencies": {
+    "@coze/api": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["methodmate", "api", "research", "hci"],
+  "author": "bmh201708",
+  "license": "MIT"
+} 
