@@ -2,6 +2,7 @@
   "name": "methodmate-backend",
   "version": "1.0.0",
   "description": "MethodMate Backend API Server",
+  "type": "module",
   "main": "local-api.js",
   "scripts": {
     "start": "node local-api.js",
