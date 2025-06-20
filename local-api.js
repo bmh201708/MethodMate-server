@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3002;
 // CORS配置 - 支持生产环境
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://method-mate.vercel.app', 'https://methodmate.vercel.app'] 
+    ? ['https://method-mate.vercel.app', 'https://methodmate.vercel.app','http://118.195.129.161','http://118.195.129.161:3002'] 
     : ['http://localhost:5173', 'http://localhost:3000'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
